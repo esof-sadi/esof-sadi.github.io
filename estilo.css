@@ -1,0 +1,206 @@
+html, body{
+    display: inline;
+}
+
+/* -------  Navbar -------*/
+
+.navbar .my-navbar-2{
+    padding: 15px 0px;
+	background: rgba(0, 0, 0, 0.6);
+	border: none;
+}
+
+.my-navbar-2 a{
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #dadada;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.my-navbar-2 a:hover{
+    color: #ffffff;
+}
+
+.my-navbar{
+    background-color: #ffffff;
+
+}
+
+.my-navbar a{
+    color: #f05f40;
+}
+
+.my-navbar a:hover{
+    color: #db5638;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: transparent !important;
+}
+
+.icon-bar{
+    background-color: #dadada;
+}
+
+/* -------  Capa -------*/
+
+html, body, .my-capa{
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,
+    rgba(0,0,0,0.6) 100%), url(img/header3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+.my-conteudo-capa{
+    margin-top: 120px;
+    color: #ffffff;
+}
+
+.my-conteudo-capa h1{
+    text-transform: uppercase;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-weight: bolder;
+}
+
+.my-conteudo-capa p{
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+
+.icon-sobre{
+    font-size: 50px;
+    color: #f05f40;
+    margin-top: 20px;
+    margin-left: 45%;
+
+}
+
+/* -------  Seções -------*/
+
+#id-secao-sobre{
+    background-color: #f05f40;
+    width: 100%;
+}
+
+.my-conteudo-secao{
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+
+.my-conteudo-secao h1{
+    font-size: 35px;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+}
+
+.my-conteudo-secao p{
+    font-size: 14px;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+}
+
+#id-secao-validar{
+    background-color: #ffffff;
+    width: 100%;
+}
+
+.codigo-verificador{
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+
+.formulario-verificar{
+    margin-top: 15px;
+}
+
+/* -------  Media Query -------*/
+
+/* xs < 768 */
+@media screen and (max-width: 767px) {
+    .my-conteudo-capa h1{
+        font-size: 40px;
+    }
+}
+
+/* sm */
+@media screen and (min-width: 768px) {
+    .my-conteudo-capa h1{
+        font-size: 60px;
+    }
+
+}
+
+/* md */
+@media screen and (min-width: 992px) {
+    .my-conteudo-capa h1{
+        font-size: 60px;
+    }
+}
+
+/* lg */
+@media screen and (min-width: 1200px) {
+    .my-conteudo-capa h1 {
+        font-size: 70px;
+    }
+}
+/* -------  Fim Media Query -------*/
+
+
+/* -------  Personalização -------*/
+
+hr{
+    max-width: 50px;
+    border-width: 3px;
+}
+
+.my-laranja{
+    border-color: #f05f40;
+}
+
+.my-branco{
+    border-color: #ffffff;
+    color: #ffffff;
+}
+
+.my-cinza{
+    border-color: #f1f1f1;
+    color: #f1f1f1;
+}
+
+.my-btn-custom{
+    margin-top: 40px;
+    margin-right: 20px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.my-btn-laranja{
+    border: solid #f05f40;
+    background-color: #f05f40;
+    color: #ffffff;
+}
+
+.my-btn-laranja:hover{
+    background-color: #db5638;
+    border: solid #db5638;
+    color: #ffffff;
+}
+
+.my-btn-branco{
+    border: solid #ffffff;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.my-btn-branco:hover{
+    background-color: #dadada;
+    border: solid #dadada;
+    color: #000000;
+}
