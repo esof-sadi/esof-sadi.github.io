@@ -55,8 +55,7 @@
     </nav>
 
     <div class="my-capa">
-        <div class="col-md-2"></div>
-        <div class="my-conteudo-capa text-center col-md-8">
+        <div class="my-conteudo-capa text-center col-md-8 col-md-offset-2">
             <h1>
                 Sistema de Assinatura Digital
             </h1>
@@ -68,7 +67,7 @@
             <a href="#id-secao-validar" class="btn my-btn-custom my-btn-laranja btn-lg">Receber um Documento</a>
         </div>
     </div>
-    
+
     <section id="id-secao-sobre">
         <div class="container">
             <div class="row text-center my-conteudo-secao my-branco">
@@ -78,10 +77,14 @@
                     </h1>
                     <hr>
                     <p class="my-cinza">
-                        Toda vez que você vai validar um documento é necessário assiná-lo, certo? Desse modo, não há o perigo de alguém tomar a sua identidade e fazer o que bem entender,
-                        prejudicando você e os seus bens. Para que os negócios online — com ou sem fins lucrativos — também sejam seguros, foi criada a assinatura digital.
-                        Essa garantia digital é uma maneira de verificar se o emissor de um documento ou serviço é realmente quem ele diz ser. Com isso, você pode navegar pela internet e
-                        acessar sites que usam as suas informações pessoais sem a preocupação de ser enganado ou roubado.
+                        Toda vez que você vai validar um documento é necessário assiná-lo, certo? Desse modo, não há o
+                        perigo de alguém tomar a sua identidade e fazer o que bem entender,
+                        prejudicando você e os seus bens. Para que os negócios online — com ou sem fins lucrativos —
+                        também sejam seguros, foi criada a assinatura digital.
+                        Essa garantia digital é uma maneira de verificar se o emissor de um documento ou serviço é
+                        realmente quem ele diz ser. Com isso, você pode navegar pela internet e
+                        acessar sites que usam as suas informações pessoais sem a preocupação de ser enganado ou
+                        roubado.
                     </p>
                     <a href="" class="btn my-btn-custom my-btn-branco btn-lg">Acessar sua conta</a>
                     <a href="" class="btn my-btn-custom my-btn-branco btn-lg">Cadastrar-se</a>
@@ -99,25 +102,25 @@
                     </h1>
                     <hr class="my-laranja">
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-4 col-sm-4">
                     <span class="glyphicon glyphicon-pencil icon-sobre"></span>
                     <p>
                         Digite o Número do Documento (Rodapé)
                     </p>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-4 col-sm-4">
                     <span class="glyphicon glyphicon-list-alt icon-sobre"></span>
                     <p>
                         Digite o Código Verficador (Abaixo da Assinatura)
                     </p>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-4 col-sm-4">
                     <span class="glyphicon glyphicon-check icon-sobre"></span>
                     <p>
                         Confirme se as palavras estão no lugar correto
                     </p>
                 </div>
-                <div class="col-md-3 codigo-verificador">
+                <div class="col-md-8 codigo-verificador col-md-offset-2">
                     <div class=" formulario-verificar">
                         <input type="text" class="form-control" placeholder="Número do Documento" aria-describedby="button-addon2">
                     </div>
@@ -129,6 +132,43 @@
             </div>
         </div>
     </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    LOGO
+                </div>
+                <div class="col-md-3">
+                    <ul>
+                        <li>
+                            <a>Sobre</a>
+                        </li>
+                        <li>
+                            <a>Contato</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <ul>
+                        <li>
+                            <a>Acessar sua conta</a>
+                        </li>
+                        <li>
+                            <a>Validar Documento</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h1>
+                        Redes sociais
+                    </h1>
+                </div>
+            </div>
+        </div>
+        <p class="text-center">
+            Todos os direitos reservados.
+        </p>
+    </footer>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
@@ -136,7 +176,7 @@
     <script type="text/javascript">
         jQuery(function () {
             jQuery(window).scroll(function () {
-                if (jQuery(this).scrollTop() > 100){
+                if (jQuery(this).scrollTop() > 100) {
                     $("#id-menu").addClass("my-navbar");
                 } else {
                     $("#id-menu").removeClass("my-navbar");

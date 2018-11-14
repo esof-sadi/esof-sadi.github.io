@@ -80,8 +80,6 @@ html, body>.my-capa{
     font-size: 50px;
     color: #f05f40;
     margin-top: 20px;
-    margin-left: 45%;
-
 }
 
 /* -------  Seções -------*/
@@ -135,13 +133,45 @@ html, body>.my-capa{
     box-shadow: 4px 4px 5px #888888;
 }
 
-.my-login-form .form-control {
+.form-control {
     background: #f7f7f7 none repeat scroll 0 0;
     border: 1px solid #d4d4d4;
     border-radius: 4px;
     font-size: 14px;
     height: 50px;
     line-height: 50px;
+}
+
+/* -------  Cadastro -------*/
+
+#id-cadastro{
+    background-color: #f4f4f4;
+}
+
+.my-form-cadastro{
+    background-color: #ffffff;
+    border: solid 1px #f4f4f4;
+    border-radius: 5px;
+    box-shadow: 4px 4px 5px #888888;
+}
+
+#id-cadastro>.container{
+    margin-top: 20px;
+}
+
+/* -------  Rodapé -------*/
+footer{
+    background-color: #0f0f0f;
+    padding: 50px 0px 20px 0px;
+}
+
+footer a{
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #dadada;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
 }
 
 /* -------  Media Query -------*/
