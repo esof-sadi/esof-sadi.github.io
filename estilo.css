@@ -159,6 +159,21 @@ html, body>.my-capa{
     margin-top: 20px;
 }
 
+/* -------  Upload -------*/
+html, body, .my-upload{
+    background-color: #f4f4f4;
+    margin-top: 50px;
+}
+
+.doc{
+    width: 100%;
+    height: 500px;
+    top: 0;
+    left: 0;
+    border: none;
+}
+
+
 /* -------  Rodapé -------*/
 footer{
     background-color: #0f0f0f;
