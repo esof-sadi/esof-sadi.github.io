@@ -121,7 +121,7 @@ html, body>.my-capa{
 /* -------  Login -------*/
 
 .my-login{
-    background-color: #C95036;
+    background-color: #ffffff;
     width: 100%;
     height: 100%;
 
@@ -167,6 +167,7 @@ html, body>.my-capa{
 }
 
 /* -------  Upload -------*/
+
 body>.my-upload{
     background-color: #f4f4f4;
     margin-top: 50px;
