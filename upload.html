@@ -18,8 +18,15 @@
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <script>
+        function pegaNomeArquivo() {
+            var path= document.getElementById('input-file').value;
+            document.getElementById('file-name').value = path;
+        }
+    </script>
 </head>
 <body>
+
 
     <nav id="id-menu" class="nav navbar navbar-fixed-top my-navbar-2 my-navbar">
         <div class="container">
@@ -47,17 +54,27 @@
             </div>
     </nav>
 
-    <div class="container my-upload ">
-        <div class="row">
+    <div class="container my-upload">
+        <div class="row ">
             <div class="col-md-6 my-view">
                 <iframe class="col-md-12 doc" src="https://docs.google.com/gview?url=http://writing.engr.psu.edu/workbooks/formal_report_template.doc&embedded=true"></iframe>
             </div>
 
             <div class="col-md-6">
-                <form class="form-control" action="#">
-                    <input class="" type="file" name="pic" accept=".doc" id="arquivo">
-                    <input class="btn btn-success" type="submit">
-                </form>
+                <div class='input-wrapper'>
+                    <input class="col-md-10 col-xs-10" type="text" id="file-name" readonly="true"/>
+                    <label class="btn" for='input-file'>
+                        <span class="glyphicon glyphicon-upload"></span>
+                    </label>
+                    <input id='input-file' type='file' value='' onchange='pegaNomeArquivo()'/>
+
+                </div>
+
+                <div class="text-center">
+                    <button class="btn my-btn-custom my-btn-laranja">
+                        Assinar
+                    </button>
+                </div>
             </div>
         </div>
     </div>
@@ -67,7 +84,6 @@
 
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="bootstrap/js/bootstrap.min.js"></script>
-    </div>
 
 </body>
 </html>
