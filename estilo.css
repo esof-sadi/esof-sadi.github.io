@@ -2,6 +2,21 @@ html, body{
     display: inline;
 }
 
+/* -------  Logo -------*/
+
+.img-logo{
+    height: 35px;
+    width: 132px;
+    display: block;
+    background: url('img/logo.png') no-repeat;
+    background-size: contain;
+    color: transparent;
+}
+
+.my-social-img{
+    width: 70px;
+}
+
 /* -------  Navbar -------*/
 
 .navbar .my-navbar-2{
@@ -24,8 +39,7 @@ html, body{
 }
 
 .my-navbar{
-    background-color: #ffffff;
-
+    background-color: #f4f4f4;
 }
 
 .my-navbar a{
@@ -90,8 +104,8 @@ html, body>.my-capa{
 }
 
 .my-conteudo-secao{
-    padding-top: 60px;
-    padding-bottom: 50px;
+    padding-top: 130px;
+    padding-bottom: 140px;
 }
 
 .my-conteudo-secao h1{
@@ -120,20 +134,10 @@ html, body>.my-capa{
 
 /* -------  Login -------*/
 
-.my-login{
-    background-color: #ffffff;
+html>body>#id-login{
+    background-color: #fafafa;
     width: 100%;
     height: 100%;
-
-}
-
-.my-caixa-login {
-    background: #ffffff;
-    border-radius: 5px;
-    margin: 10px auto 30px;
-    width: 350px;
-    padding: 40px 50px 50px 50px;
-    box-shadow: 4px 4px 5px #888888;
 }
 
 .form-control {
@@ -145,31 +149,34 @@ html, body>.my-capa{
     line-height: 50px;
 }
 
-#id-login, button{
-    margin-top: 10px;
+.my-caixa-login{
+    margin-top: 150px;
+}
+
+#form-login{
+    margin-top: 5px;
 }
 
 /* -------  Cadastro -------*/
 
-#id-cadastro{
-    background-color: #f4f4f4;
+html>body>#id-cadastro{
+    background-color: #fafafa;
+    width: 100%;
+    height: 100%;
 }
 
-.my-form-cadastro{
-    background-color: #ffffff;
-    border: solid 1px #f4f4f4;
-    border-radius: 5px;
-    box-shadow: 4px 4px 5px #888888;
+.my-caixa-cadastro{
+    margin-top: 100px;
 }
 
-#id-cadastro>.container{
-    margin-top: 20px;
+#form-cadastro{
+    margin-top: 5px;
 }
 
 /* -------  Upload -------*/
 
 body>.my-upload{
-    background-color: #f4f4f4;
+    background-color: #fafafa;
     margin-top: 50px;
     padding-top: 20px;
     width: 100%;
@@ -181,7 +188,7 @@ input[type='file'] {
 }
 .input-wrapper>input[type='text']{
     border: solid 1px #dadada;
-    background-color: #f9f9f9;
+    background-color: #f4f4f4;
     margin-top: 10px;
     height: 35px;
 }
@@ -223,13 +230,13 @@ footer a{
     transition: all 0.2s;
 }
 
+.my-padding{
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
+
 /* -------  Media Query -------*/
 
-@media(max-width: 480px){
-    .my-caixa-login{
-        width: 100%;
-    }
-}
 
 /* xs < 768 */
 @media screen and (max-width: 767px) {
@@ -318,4 +325,8 @@ hr{
     background-color: #dadada;
     border: solid #dadada;
     color: #000000;
+}
+
+.my-margin-btn{
+    margin-top: 30px;
 }
