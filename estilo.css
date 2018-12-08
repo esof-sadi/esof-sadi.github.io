@@ -56,7 +56,7 @@ html, body{
 }
 
 .icon-bar{
-    background-color: #dadada;
+    background-color: #f05f40;
 }
 
 /* -------  Capa -------*/
@@ -214,6 +214,23 @@ input[type='file'] {
     border: none;
 }
 
+/* -------  Validação -------*/
+
+#id-validacao{
+    height: 90%;
+    background-color: #fafafa;
+    width: 100%;
+}
+
+#id-campo-validacao{
+    margin-top: 100px;
+}
+
+.my-btn-confimar{
+    margin-top: 30px;
+    margin-bottom: 65px;
+}
+
 
 /* -------  Rodapé -------*/
 footer{
@@ -250,8 +267,22 @@ footer a{
     .my-conteudo-capa h1{
         font-size: 60px;
     }
-
 }
+
+@media screen and (max-width: 768px) {
+    .my-navbar-2{
+        background-color: #f4f4f4;
+    }
+
+    .my-navbar-2 a{
+        color: #f05f40;
+    }
+
+    .my-navbar-2 a:hover{
+        color: #db5638;
+    }
+}
+
 
 /* md */
 @media screen and (min-width: 992px) {
