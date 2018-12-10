@@ -101,6 +101,7 @@ html, body>.my-capa{
 #id-secao-sobre{
     background-color: #f05f40;
     width: 100%;
+    height: 100%;
 }
 
 .my-conteudo-secao{
@@ -360,4 +361,45 @@ hr{
 
 .my-margin-btn{
     margin-top: 30px;
+}
+
+/* -------  Validação do Formulário -------*/
+
+.erroValidacao {
+    border-color: red;
+}
+
+.mensagem {
+    min-height: 30px;
+    padding: 5px;
+    box-shadow: 1px 1px 1px gray;
+    width: 100%;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    margin: 0 auto 10px;
+    font-size: 1.0em;
+}
+
+.mensagem .close {
+    float: right;
+    font-family: monospace;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+.sucesso {
+    margin-top: 10px;
+    text-align: center;
+    border-color: #04B431;
+    background: #BCF5A9;
+    display: block;
+}
+
+.erro {
+    margin-top: 10px;
+    text-align: center;
+    border-color: #FE2E2E;
+    background: #F78181;
+    display: block;
 }

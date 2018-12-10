@@ -65,24 +65,22 @@
                     Ainda não possui uma conta? <a href="cadastro.html" class=""> Cadastre-se.</a>
                 </p>
                 <div class="col-md-10 col-md-offset-1" id="form-login">
-                    <form action="upload.html" method="submit" class="form-horizontal">
+                    <form action="upload.html" id="formLogin" method="post" class="form-horizontal">
 
                         <div class="form-group">
-
-                            <input type="email" class="form-control" id="inputEmail" placeholder="E-mail">
-
+                            <input type="email" class="form-control" id="emailLogin" placeholder="E-mail">
                         </div>
 
                         <div class="form-group">
-
-                            <input type="password" class="form-control" id="inputPassword" placeholder="Senha">
-
+                            <input type="password" class="form-control" id="senhaLogin" placeholder="Senha">
                         </div>
+
                         <div class="">
                             <a href="#">Esqueceu sua senha?</a>
                         </div>
                         <div class="form-group text-center">
-                            <a href="upload.html" type="submit" class="btn my-btn-custom my-btn-laranja my-laranja my-margin-btn" id="id-btn-login">Entrar</a>
+                            <!--<a href="upload.html" type="submit" class="btn my-btn-custom my-btn-laranja my-laranja my-margin-btn" id="id-btn-login">Entrar</a>-->
+                            <input type="submit" id="loginButton" class="btn my-btn-custom my-btn-laranja my-laranja my-margin-btn" onclick="validaLogin()" value="Entrar">
                         </div>
 
                     </form>
